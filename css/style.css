@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.cabecalho{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#titulo{
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: none;
+  text-decoration: none;
+  color: gold;
+  line-height: 1.5em;
+  height: ;
+  width: 100%;
+  padding: 25px;
+  text-align: center;
+  background-color: #000;
+}
+
+.section-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-container img {
+  max-width:600px;
+  max-height:450px;
+  width: auto;
+  height: auto;
+}
+
+.background-section-one{
+  background-image: url(../assets/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.background-section-two{
+  background-image: url(../assets/bg.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-container{
+  background: gray;
+  border-radius: 25px;
+  padding: 25px;
+  max-width: 450px;
+}
+
+input{
+  width: 300px;
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 12px;
+  background: #000;
+  color: red;
+}
+
+form{
+  display: grid;
+}
+
+footer{
+  height: 150px;
+  padding: 25px;
+  text-align: center;
+  background-color: #000;
+  color: #fff;
+}
+
+#textoFooter1{
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  line-height: 1.5em;
+}
+
+#textoFooter2{
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: none;
+  text-decoration: none;
+  line-height: 1.5em;
+}
+
+#textoFooter3{
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: none;
+  text-decoration: none;
+  color: blue;
+  line-height: 1.5em;
+}
